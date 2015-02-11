@@ -109,7 +109,7 @@ end
   #nil?
   describe "#nil?" do
     it "should return true if the object is nil" do
-      expect(@nil == nil).to be(true)
+      expect(@arr.nil?).to be(false)
     end
   end
 
